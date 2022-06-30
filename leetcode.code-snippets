@@ -1,0 +1,37 @@
+{
+	"lolo": {
+		"scope": "cpp",
+		"prefix": "lolo",
+		"body": [
+			"typedef long long ll;",
+			"$1"
+		],
+		"description": "long long"
+	},
+	"sd": {
+		"scope": "cpp",
+		"prefix": "sd",
+		"body": "scanf(\"%${1:d}\", &$2);",
+		"description": "scanf for int"
+	},
+	"pd": {
+		"scope": "cpp",
+		"prefix": "pd",
+		"body": "printf(\"%${1:d}\", $2);",
+		"description": "scanf for int"
+	},
+	"bits": {
+		"scope": "cpp",
+		"prefix": "bits",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"",
+			"$1",
+			"",
+			"int main() {",
+			"    $2",
+			"    return 0;",
+			"}"
+		]
+	}
+}
